@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 .xop-section {
-	max-width:960px;
+	max-width:1500px;
 	margin:0 auto;
 	padding:2% 2%;
 }
@@ -93,6 +93,47 @@
     /* bottom, image */
     url(../images/stairs.png);
 }
+
+.xop-img-5 { 
+	background: 
+	   linear-gradient(
+		 rgba(0, 0, 0, 0.50), 
+		 rgba(0, 0, 0, 0.10)
+	   ),
+	   /* bottom, image */
+	   url(../images/LivingRoom.png);
+   }
+
+.xop-img-6 { 
+	background: 
+	   linear-gradient(
+		 rgba(0, 0, 0, 0.50), 
+		 rgba(0, 0, 0, 0.10)
+	   ),
+	   /* bottom, image */
+	   url(../images/bedroom.png);
+   } 
+
+.xop-img-7 { 
+	background: 
+	   linear-gradient(
+		 rgba(0, 0, 0, 0.50), 
+		 rgba(0, 0, 0, 0.10)
+	   ),
+	   /* bottom, image */
+	   url(../images/HomeAddition2.png);
+   } 
+
+.xop-img-8 { 
+	background: 
+	   linear-gradient(
+		 rgba(0, 0, 0, 0.50), 
+		 rgba(0, 0, 0, 0.10)
+	   ),
+	   /* bottom, image */
+	   url(../images/Exterior.png);
+   } 
+
 
 .xop-info {
 	position: ;

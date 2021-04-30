@@ -13,16 +13,16 @@ html{font-size:62.5%}
 	text-rendering:optimizeLegibility}
 
 
-	.xopixel-header nav{float:left}
+	.xopixel-header nav{float: right}
 	.xopixel-header nav a{display:inline-block;position:relative;
 		text-align:left;
-		width:2.5em;
+		width:5.5em;
 		height:2.5em;
 		background:0 0;
-		border-radius:50%;
+		border-radius:10%;
 		margin:0 .5rem;
-		border:4px solid #FFB900;
-		color:#FFB900;
+		border:4px solid #fff;
+		color:#fff;
 		text-decoration:none;
 		-webkit-transition:all .2s ease-in-out;
 		-moz-transition:all .2s ease-in-out;
@@ -32,25 +32,43 @@ html{font-size:62.5%}
 
 		.xopixel-header h1{display:block;
 			float:left;
-			font-family:Nunito,sans-serif;
+			font-family:alexa-std, sans-serif;
 			color:#fff;
-			font-size:2rem;
+			font-size:3rem;
 			font-weight:700;
 			letter-spacing:.05rem;
 			margin-left:2rem}
 
-		.xopixel-archive::after{content:"\f004";
+		.xopixel-archive::after{content:"About Us";
 		font-family:FontAwesome}
 
-		.xopixel-back::after{content:"\f060";
+		.xopixel-back::after{content:"Gallery";
 		font-family:FontAwesome}
 		.xopixel-archive::after,
 		.xopixel-back::after{position:absolute;
 			font-size:1.8rem;
-			top:2px;left:11px;
+			text-align: center;
+			top:2px;
 			width:100%;
 			height:100%;
 			line-height:2;text-indent:0}
 
 			.xopixel-archive:hover,.xopixel-back:hover{color:#fff;
 				background-color:#FFB900}
+
+
+@media (max-width: 900px) {
+	.xopixel-header nav{  
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin-left: 20px;
+	}
+
+	.xopixel-header h1 {
+		width: 100%;
+		text-align: center;
+	}
+	
+	
+}
